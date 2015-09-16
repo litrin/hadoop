@@ -54,7 +54,7 @@ tar zxf hadoop-2.5.0-cdh5.2.0.tar.gz
 Now copy `hadoop-mesos-0.1.0.jar` into the `share/hadoop/common/lib` folder.
 
 ```shell
-cp /path/to/hadoop-mesos-0.1.0.jar hadoop-2.5.0-cdh5.2.0/share/hadoop/common/lib/
+cp /path/to/target/hadoop-mesos-0.1.0.jar hadoop-2.5.0-cdh5.2.0/share/hadoop/common/lib/
 ```
 
 Since CDH5 includes both MRv1 and MRv2 (YARN) and is configured for YARN by
